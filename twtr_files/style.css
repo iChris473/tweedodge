@@ -2929,6 +2929,8 @@ select:focus {
   border: 1px solid rgba(128, 128, 128, 0.322); 
   padding: 10px;
   border-radius: 10px;
+  background: white;
+  z-index: 999;
 }
 
 .centerItem {
