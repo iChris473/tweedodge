@@ -2921,6 +2921,23 @@ select:focus {
   display: none;
 }
 
+.walletLinkParent {
+  display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 15px; width: 100%;
+}
+
+.walletLink {
+  border: 1px solid rgba(128, 128, 128, 0.322); 
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.centerItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .site-header .navbar.is-transparent .navbar-brand .logo-light {
   display: block;
 }
