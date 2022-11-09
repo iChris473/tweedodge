@@ -2930,7 +2930,7 @@ select:focus {
   padding: 10px;
   border-radius: 10px;
   background: white;
-  z-index: 999;
+  z-index: 997;
 }
 
 .centerItem {
