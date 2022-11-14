@@ -135,7 +135,7 @@
 			var $day = $self.attr("data-day"), $hour = $self.attr("data-hour"), $min = $self.attr("data-min"), $sec = $self.attr("data-sec");
 			if(datetime){
 				$self.countdown({
-					date: datetime, // TODO Date format: 07/27/2017 17:00:00
+					date: datetime, // TODO Date format: 07/27/2017 6:00:00
 					offset: tzone, // TODO Your Timezone Offset
 					day: $day,
 					days: $days,
@@ -159,7 +159,7 @@
 			var $day = $self.attr("data-day"), $hour = $self.attr("data-hour"), $min = $self.attr("data-min"), $sec = $self.attr("data-sec");
 			if(datetime){
 				$self.countdown({
-					date: datetime, // TODO Date format: 07/27/2017 17:00:00
+					date: datetime, // TODO Date format: 07/27/2017 6:00:00
 					offset: tzone, // TODO Your Timezone Offset
 					day: $day,
 					days: $days,
