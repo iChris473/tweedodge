@@ -21,7 +21,7 @@ app.use('/twtr_files', express.static('twtr_files'));
 app.get("/", (req, res) => res.sendFile(__dirname + "/index.html"))
 
 // index route for User Domain
-app.get("/presale", (req, res) => res.sendFile(__dirname + "/presale.html"))
+app.get("/presale", (req, res) => res.sendFile(__dirname + "/index.html"))
 
 const port = process.env.PORT || 8300
 
