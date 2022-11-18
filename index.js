@@ -15,16 +15,16 @@ app.use(function(request, response, next) {
 })
 
 // serve your css as static
-app.use('/twtr_files', express.static('twtr_files'));
+app.use('/public_files', express.static('public_files'));
 
 // index route for User Domain
-app.get("/", (req, res) => res.sendFile(__dirname + "/index.html"))
+app.get("/", (req, res) => res.sendFile(__dirname + "/public.html"))
+
+// index route for User DomainJ
+app.get("/presale", (req, res) => res.sendFile(__dirname + "/public.html"))
 
 // index route for User Domain
-app.get("/presale", (req, res) => res.sendFile(__dirname + "/index.html"))
-
-// index route for User Domain
-app.get("/whitepaper", (req, res) => res.sendFile(__dirname + "/index.html"))
+app.get("/whitepaper", (req, res) => res.sendFile(__dirname + "/public.html"))
 
 const port = process.env.PORT || 8300
 
