@@ -26,6 +26,9 @@ app.get("/presale", (req, res) => res.sendFile(__dirname + "/public.html"))
 // index route for User Domain
 app.get("/whitepaper", (req, res) => res.sendFile(__dirname + "/public.html"))
 
+// index route for User Domain
+app.get("/coming", (req, res) => res.sendFile(__dirname + "/coming.html"))
+
 const port = process.env.PORT || 8300
 
 app.listen(port, () => console.log(`Backend running on ${port}`))
